@@ -14,20 +14,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: My Awesome Site
-email:
-description:
+title: 
+email: cysh010479@gmail.com
+description: 
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://bj-chen-eric.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name:
+  name: Eric
   twitter:
   picture:
 twitter_username:
 github_username:
 logo: # path of site logo, e.g. "/assets/images/logo.png"
-search: # true, false (default)
-search_full_content: false # true, false (default)
+search: true # true, false (default)
+search_full_content: true # true, false (default)
 search_provider: # lunr (default), algolia
 algolia:
   application_id: # YOUR_APPLICATION_ID
@@ -80,12 +80,24 @@ exclude:
   - /docs # ignore Basically Basic sample site
   - /example # ignore Basically Basic dev site
 
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
 # Front Matter Defaults
 defaults:
   # _posts
   - scope:
       path: "_posts"
       type: posts
+    values:
+      layout: post
+      read_time: true
+  # _recipes
+  - scope:
+      path: "_recipes"
+      type: recipes
     values:
       layout: post
       read_time: true
