@@ -1,5 +1,5 @@
 ---
-title: Recipes
+title: Peoples
 layout: collection
 permalink: /recipes/
 collection: recipes
