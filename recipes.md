@@ -1,7 +1,7 @@
 ---
 title: Peoples
 layout: collection
-permalink: /recipes/
+permalink: /people/
 collection: recipes
 entries_layout: grid
 ---
