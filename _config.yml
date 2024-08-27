@@ -19,6 +19,7 @@ email: cysh010479@gmail.com
 description: 
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: https://bj-chen-eric.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+teaser: /assets/images/amine-ounnas-180287.jpg
 author:
   name: Eric
   twitter:
