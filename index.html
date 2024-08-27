@@ -1,35 +1,22 @@
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: home
+paginate: true
+alt_title: "Basically Basic"
+sub_title: "Your new default Jekyll theme"
+image: /assets/images/amine-ounnas-180287.jpg
+introduction: |
+  Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found there are fully supported by **Basically Basic**, with a few enhancements thrown in for good measure:
 
-  {% if site.plugins contains 'jekyll-seo-tag' or site.gems contains 'jekyll-seo-tag' %}
-    {% comment %}
-      Add metadata for search engines and social networks if jekyll-seo-tag plugin is enabled
-    {% endcomment %}
-    {% include head-seo.html %}
-  {% else %}
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
-  {% endif %}
-
-  <script>
-    /* Cut the mustard */
-    if ( 'querySelector' in document && 'addEventListener' in window ) {
-      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
-    }
-  </script>
-
-  <link rel="stylesheet" href="{{ '/assets/stylesheets/main.css' | relative_url }}">
-  {% if site.data.theme.google_fonts %}
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={% for font in site.data.theme.google_fonts %}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}">
-  {% endif %}
-
-  {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed'%}
-    {% comment %}
-      Add Atom feed link if jekyll-feed plugin is enabled
-    {% endcomment %}
-    {% include head-feed.html %}
-  {% endif %}
-</head>
+  - Clean responsive design with six customizable skins
+  - Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
+  - About page layout
+  - Disqus Comments and Google Analytics support
+  - SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
+actions:
+  - label: "Get Started"
+    icon: github
+    url: "https://github.com/mmistakes/jekyll-theme-basically-basic"
+  - label: "Download"
+    icon: download
+    url: "https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip"
+---
