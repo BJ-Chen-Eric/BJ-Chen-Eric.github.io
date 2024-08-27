@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: 
+title: 'Test'
 email: cysh010479@gmail.com
 description: 
 baseurl: # the optional subpath of your site, e.g. "/blog"
@@ -97,8 +97,8 @@ defaults:
       read_time: true
   # _recipes
   - scope:
-      path: "_recipes"
-      type: recipes
+      path: "_people"
+      type: people
     values:
       layout: post
       read_time: true
