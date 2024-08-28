@@ -50,7 +50,7 @@ google_fonts:
 
 navigation_pages:
   - posts.md
-  - recipes.md
+  - people.md
   - about.md
   - cv.md
   - tags.md
