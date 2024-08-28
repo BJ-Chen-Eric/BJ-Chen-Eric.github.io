@@ -82,7 +82,7 @@ exclude:
   - /example # ignore Basically Basic dev site
 
 collections:
-  recipes:
+  people:
     output: true
     permalink: /:collection/:path/
 
