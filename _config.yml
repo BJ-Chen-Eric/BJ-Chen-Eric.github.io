@@ -14,23 +14,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: BakiShule
-email: mduman@nm-aist.ac.tz
+title: Rabbit on
+email: cysh010479@gmail.com
 description: ""
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://bj-chen-eric.github.io/"  # the base hostname & protocol for your site, e.g. http://example.com
 author:
-  name: Neema
-  twitter: Nakadori
+  name: Eric
   picture: /assets/images/profile.jpg
-twitter_username: Nakadori
-github_username: bakishule
-logo: /assets/icons/bakishule.png
+# twitter_username: Nakadori
+github_username: bj-chen-eric
+logo: /assets/icons/Eric_icon.png
 
 
 
 disqus:
-    shortname: bakishule
+    shortname: Eric
 # Build settings
 markdown: kramdown
 
