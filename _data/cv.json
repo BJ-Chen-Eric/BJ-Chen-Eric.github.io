@@ -1,74 +1,49 @@
 {
   "basics": {
-    "name": "Neema Mduma, PhD",
-    "label": "Founder of BakiShule",
+    "name": "Bo-Jia Chen, Ph.D. Cand.",
+    "label": "Biological data perspecter",
     "picture": "",
-    "email": "mdumaneema22@gmail.com",
-    "website": "https://neylicious.github.io",
-    "summary": "Mandela Washington Fellow 2023, Global Young Academy Member 2023, Queen Elizabeth Scholar 2020, Tanzania Sheroe 2019",
+    "email": "cysh010479@gmail.com",
+    "website": "https://bj-chen-eric.github.io",
+    "summary": "National Chung Hsing University, 2018-2024",
     "profiles": [
-      {
-        "network": "Twitter",
-        "username": "nakadori",
-        "url": "https://twitter.com/nakadori"
-      },
   
       {
         "network": "Linkedln",
-        "username": "Neema Mduma",
+        "username": "BoJia Chen",
         "url": "https://linkedin.com/in/mduma"
       },
 
-      {
-        "network": "Instagram",
-        "username": "neemaenica",
-        "url": "https://www.instagram.com/neemaenica/"
-      },
-
-      {
-        "network": "Facebook",
-        "username": "mdumaneema",
-        "url": "https://facebook.com/mdumaneema"
-      }
     ]
   },
-  "work": [
+  "work and exchanges": [
      {
-      "company": "The Nelson Mandela African Institution of Science and Technology.",
-      "position": "Lecturer",
-      "website": "https://www.nm-aist.ac.tz",
-      "startDate": "2020",
+      "company": "Dr.Day-Yu Chao lab, NCHU",
+      "position": "Ph.D. Candidate",
+      "website": "https://dyclab-nchu.github.io",
+      "startDate": "20218",
       "endDate": "Up-to-date",
+      "summary": "Working the NGS field including but not limited in transcritomic, genomic, pipeline construction"
+    },
+    
+    {
+      "company": "Dr.Jame J Cai lab, TAMU",
+      "position": "Exchange researcher",
+      "website": "https://cailab-tamu.github.io",
+      "startDate": "2018.10",
+      "endDate": "2018.12",
       "summary": ""
     },
     
     {
-      "company": "The Nelson Mandela African Institution of Science and Technology.",
-      "position": "Assistant Lecturer",
-      "website": "https://www.nm-aist.ac.tz",
-      "startDate": "2018",
-      "endDate": "2020",
-      "summary": ""
-    },
-    
-    {
-      "company": "University of Iringa Formerly Tumaini University Iringa.",
-      "position": "Assistant Lecturer",
-      "website": "http://www.uoi.ac.tz",
-      "startDate": "2016",
-      "endDate": "2017",
-      "summary": ""
-    },
-    
-    {
-      "company": "University of Iringa Formerly Tumaini University Iringa.",
-      "position": "Tutorial Assistant",
-      "website": "http://www.uoi.ac.tz",
-      "startDate": "2012",
-      "endDate": "2015",
+      "company": "Dr.Jame J Cai lab, TAMU",
+      "position": "Exchange researcher",
+      "website": "https://cailab-tamu.github.io",
+      "startDate": "2020.12",
+      "endDate": "2021.5",
       "summary": ""
     }
-    
+
   ],
   "volunteer": [
     {
@@ -82,45 +57,45 @@
   ],
   "education": [
     {
-      "institution": "The Nelson Mandela African Institution of Science and Technology",
-      "area": "Information and Communication Science and Engineering",
-      "studyType": "PhD",
-      "startDate": "2017",
-      "endDate": "2020",
+      "institution": "National Chung Hsing University",
+      "area": "Ph.D. program in microbiome genomics",
+      "studyType": "Ph.D.",
+      "startDate": "2020",
+      "endDate": "2024",
       "courses": 
     },
       
     {
-      "institution": "The Nelson Mandela African Institution of Science and Technology",
-      "area": "Information and Communication Science and Engineering",
+      "institution": "National Chung Hsing University",
+      "area": "Grand Institute of micribiome and public health",
       "studyType": "Masters Degree",
-      "startDate": "2014",
-      "endDate": "2016",
+      "startDate": "2018",
+      "endDate": "2020",
       "courses": 
     }
   ],
  
   "skills": [
     {
-      "name": "Entrepreneur and leadership skills.",
+      "name": "R and shell programing",
       "level": "",
       "keywords":
     },
     {
-      "name": "Project planning and management.",
+      "name": "NGS analysis",
       "level": ,
       "keywords": 
     }
   ],
   "languages": [
     {
-      "language": "English and Swahili",
+      "language": "Mandarin and English",
       "fluency": ""
     }
   ],
   "interests": [
     {
-      "name": "Applied machine learning and  ICT4D ",
+      "name": "Explore the posibility of the high-throughput sequencing data",
       "keywords": 
     }
   ],
