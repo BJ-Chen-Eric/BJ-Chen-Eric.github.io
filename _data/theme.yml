@@ -47,7 +47,8 @@ navigation_pages:
   - about.md
   - cv.md
   - posts.md
-  - tag.md
+  - tags.md
+  - categories.md
   - publications.md
   - projects.md
   
