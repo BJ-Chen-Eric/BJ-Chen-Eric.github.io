@@ -59,6 +59,9 @@ paginate_path: /page:num/
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Outputting
+permalink: /:categories/:title/
+
 # Front Matter Defaults
 defaults:
   # _posts
