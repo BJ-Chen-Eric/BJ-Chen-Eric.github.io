@@ -44,7 +44,7 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 5
+paginate: 10
 paginate_path: /page:num/
 
 # Exclude from processing.
@@ -61,6 +61,11 @@ paginate_path: /page:num/
 
 # Outputting
 permalink: /:categories/:title/
+
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
