@@ -8,6 +8,7 @@ t:
   skip_content: "Skip to content"
   skip_footer: "Skip to footer"
   menu: "Menu"
+  search: "Search"
   home: "Home"
   newer: "Newer"
   older: "Older"
