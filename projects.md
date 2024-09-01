@@ -2,7 +2,9 @@
 title: "Projects"
 layout: page
 ---
-* **Grow Further - 2023**
+
+To be added...
+<!-- * **Grow Further - 2023**
    * Machine Learning Tools for Early Detection of Maize and Common Bean Diseases for Climate Change Adaptation in Tanzania.
      
 * **Organization for Women in Science for the Developing World (OWSD) - 2023**
@@ -33,4 +35,4 @@ layout: page
    * School Dropout Visualization Tool.
 
 * **Data for Local Impact Innovation Challenge (DLIIC) - 2017**
-   * Student Dropout Prediction Tool.
+   * Student Dropout Prediction Tool. -->

@@ -2,7 +2,9 @@
 title: "Publications"
 layout: page
 ---
-[Neema Mduma on ResearchGate](https://www.researchgate.net/profile/Neema_Mduma)
+
+To be added...
+<!-- [Neema Mduma on ResearchGate](https://www.researchgate.net/profile/Neema_Mduma)
 
 * Common Beans Imagery Dataset for Early Detection of Bean Rust and Bean Anthracnose Diseases. Data in Brief, Vol 54(2024). https://doi.org/10.1016/j.dib.2024.110508 (Co-authored with Hudson Laizer, Dina Machuve and Reinfrid Maganga)
   
@@ -65,4 +67,4 @@ Information in Arusha Tanzania - IJCSIS Vol. 13 No. 7, July 2015 ISSN 1947-5500.
 Tanzania - IST Africa conference proceedings, Paul Cunningham and Miriam
 Cunningham (Eds), IIMC International Information Management Corporation,
 2013, ISBN: 978-1-905824-38-0. (Co-authored with Josephat Oroma).
- 
+  -->
