@@ -60,12 +60,13 @@ paginate_path: /page:num/
 #   - vendor/ruby/
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /posts/:categories/:year/:month/:day/:title/
 
-collections:
-  recipes:
-    output: true
-    permalink: /:collection/:path/
+
+# collections:
+#   recipes:
+#     output: true
+#     permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
