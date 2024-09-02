@@ -1,7 +1,7 @@
 ---
 title: "CV, resume and cover letter"
-excerpt: "Post displaying the various ways one can highlight code blocks with Jekyll. Some options include standard Markdown, GitHub Flavored Markdown, and Jekyll's `{% highlight %}` tag."
-last_modified_at: 2024-09-01T23:47:09+0800
+excerpt: "The comparision of CV, resume and cover letter and their key components"
+last_modified_at: 2024-09-02T23:25:43+0800
 categories:
   - employee
 tags: 
@@ -20,7 +20,7 @@ A resume is shorter that lists  professional experience as it relates to a job y
 - **Professional work history:** The most substantive section of your resume, this is the place where you’d list the jobs you’ve held and your professional experience. Important to show how your accomplishments in other jobs have prepared you to succeed in the role you're applying for. For example, "Increased student and employer participation in the internship program by 32% and 25%, respectively, by producing new promotional materials and creating new employer outreach events.”
 - **Technical skills**
 
-[resume_template](/assets/images/resume.jpg)
+![resume_template](/assets/images/resume.jpg)
 
 ## CV: comprehensively describe yourself
 “curriculum vitae” literally means "course of life”. So, summarizes your education, research contributions and teaching experience. CV is much longer than resume, that could reach more than 10 pages. 
