@@ -84,11 +84,10 @@
   .menu {
     @include fluid-type($min-vw, $max-vw, 24px, 48px);
     position: relative;
-    margin-bottom: 15rem;
-    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
     font-weight: bold;
     line-height: 1;
-    margin-left: -50px
 
     a {
       display: block;

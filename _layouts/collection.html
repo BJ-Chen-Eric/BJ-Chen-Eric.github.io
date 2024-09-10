@@ -2,8 +2,17 @@
 layout: page
 ---
 
-{{ content }}
+{% assign sorted_members = site.people | sort: 'order' %}
+{% for member in sorted_members %}
+  <div class="member">
+    <h2>{{ member.title }}</h2>
+    <img src="{{ member.image.path }}" alt="{{ member.title }}">
+    <p>{{ member.content }}</p>
+  </div>
+{% endfor %}
+
+<!-- {{ content }}
 
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
   {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order %}
-</div>
+</div> -->
