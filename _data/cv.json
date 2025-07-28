@@ -45,16 +45,6 @@
     }
 
   ],
-  "volunteer": [
-    {
-      "organization": "Pythontz",
-      "position": "Communication Officer",
-      "website": "https://pythontz.github.io",
-      "startDate": "2017",
-      "endDate": "2018",
-      "summary": ""
-    }
-  ],
   "education": [
     {
       "institution": "National Chung Hsing University",
@@ -101,8 +91,8 @@
   ],
   "references": [
     {
-      "name": " Anthony Faustine",
-      "reference": "It is my pleasure to recommend Neema, her performance working as a communication officer at pythontz  proved that she will be a valuable addition to any company."
+      "name": "",
+      "reference": ""
     }
   ]
 }
