@@ -45,6 +45,16 @@
     }
 
   ],
+  "volunteer": [
+    {
+      "organization": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": ""
+    }
+  ],
   "education": [
     {
       "institution": "National Chung Hsing University",
