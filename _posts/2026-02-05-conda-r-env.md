@@ -12,6 +12,8 @@ tags:
   - reproducibility
 ---
 
+This note is for iOS systems (and Mac): a practical, project-first way to keep R environments clean and reproducible.
+
 ## Why this matters
 
 If you work on multiple data or bioinformatics projects, you already know the failure mode:
