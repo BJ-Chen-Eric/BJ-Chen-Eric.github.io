@@ -12,8 +12,6 @@ tags:
   - reproducibility
 ---
 
-This note is for AMC: a practical, project-first way to keep R environments clean and reproducible.
-
 ## Why this matters
 
 If you work on multiple data or bioinformatics projects, you already know the failure mode:
@@ -60,7 +58,7 @@ Nothing leaks across projects.
 Conceptually:
 
 ```
-project/
+project_name/
 ├── .vscode/
 │   └── settings.json   # tells VSCode which R to run
 └── (your code + data)
@@ -82,7 +80,7 @@ This is the simplest mental model to keep:
 Pick a clean name that matches the project:
 
 ```bash
-conda create -n r-microbiome -c conda-forge r-base r-tidyverse r-data.table
+conda create -n env_name -c conda-forge r-base r-tidyverse r-data.table
 ```
 
 This gives you a full R runtime plus a starter package set.
@@ -90,7 +88,7 @@ This gives you a full R runtime plus a starter package set.
 If you prefer an `environment.yml`, here is a minimal example:
 
 ```yaml
-name: r-microbiome
+name: env_name
 channels:
   - conda-forge
 dependencies:
@@ -114,14 +112,14 @@ conda env create -f environment.yml
 Activate the environment and locate R:
 
 ```bash
-conda activate r-microbiome
+conda activate env_name
 which R
 ```
 
 You should see something like:
 
 ```
-/opt/homebrew/Caskroom/miniforge/base/envs/r-microbiome/bin/R
+/opt/homebrew/Caskroom/miniforge/base/envs/env_name/bin/R
 ```
 
 That path is what VSCode must use.
@@ -134,8 +132,8 @@ Inside your project folder, create `.vscode/settings.json` and point to the R bi
 
 ```json
 {
-  "r.rterm.mac": "/opt/homebrew/Caskroom/miniforge/base/envs/r-microbiome/bin/R",
-  "r.rpath.mac": "/opt/homebrew/Caskroom/miniforge/base/envs/r-microbiome/bin/R"
+  "r.rterm.mac": "/opt/homebrew/Caskroom/miniforge/base/envs/env_name/bin/R",
+  "r.rpath.mac": "/opt/homebrew/Caskroom/miniforge/base/envs/env_name/bin/R"
 }
 ```
 
@@ -146,7 +144,7 @@ If you also want the integrated terminal to resolve `R` correctly, you can add:
 ```json
 {
   "terminal.integrated.env.osx": {
-    "PATH": "/opt/homebrew/Caskroom/miniforge/base/envs/r-microbiome/bin:${env:PATH}"
+    "PATH": "/opt/homebrew/Caskroom/miniforge/base/envs/env_name/bin:${env:PATH}"
   }
 }
 ```
@@ -176,27 +174,6 @@ The paths should all point into your conda environment directory. If they do, yo
 
 ---
 
-## Conda vs mamba (when and why)
-
-You can use either `conda` or `mamba` to create and manage environments. The main difference is speed and solver behavior.
-
-- **Conda** is the default tool. It is stable and widely documented, but can be slow when solving complex environments.
-- **Mamba** is a drop-in replacement that uses a faster solver (libmamba), so environment creation is much quicker.
-
-In practice:
-
-- If your environment solves quickly, `conda` is fine.
-- If it takes minutes or fails often, switch to `mamba`.
-
-The commands are the same, just swap the prefix:
-```bash
-mamba create -n r-microbiome -c conda-forge r-base r-tidyverse r-data.table
-```
-
-You still end up with the same environment layout and the same VSCode configuration.
-
----
-
 ## A simple project layout
 
 This is a structure that works well for me:
@@ -215,7 +192,7 @@ project_name/
 The `.conda-env` file is just a marker with the environment name:
 
 ```
-r-microbiome
+env_name
 ```
 
 It is optional, but it makes the environment obvious when you return to the project months later.
